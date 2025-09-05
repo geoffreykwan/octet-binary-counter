@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +37,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.binary-positions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 24px;
+}
+
+.border {
+  border: solid 1px black;
+  padding: 12px;
+}
+
+.integer-container {
+  background-color: #303030;
+}
+
+.binary-container {
+  background-color: dimgray;
+}
+
+.button {
+  background-color: #222;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.button:active {
+  background-color: dimgray;
+}
+
+.increment-button {
+  width: 60px;
+}
+
+.value-input-container {
+  width: 100%;
+  justify-content: center;
+  margin: 24px;
+}
+
+.set-button {
+  width: 100px;
+  height: 60px;
+}
+
+.value-input {
+  text-align: center;
+  width: 5em;
+  height: 2em;
+  margin: 12px;
+  font-size: 24px;
+  border: none;
+  background-color: dimgray;
+  color: white;
 }
