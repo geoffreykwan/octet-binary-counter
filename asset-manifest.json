@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/octet-binary-counter/static/css/main.9d1a530b.css",
-    "main.js": "/octet-binary-counter/static/js/main.b84549a9.js",
+    "main.css": "/octet-binary-counter/static/css/main.fe10c50d.css",
+    "main.js": "/octet-binary-counter/static/js/main.a303bee2.js",
     "static/js/453.ed979da0.chunk.js": "/octet-binary-counter/static/js/453.ed979da0.chunk.js",
     "index.html": "/octet-binary-counter/index.html",
-    "main.9d1a530b.css.map": "/octet-binary-counter/static/css/main.9d1a530b.css.map",
-    "main.b84549a9.js.map": "/octet-binary-counter/static/js/main.b84549a9.js.map",
+    "main.fe10c50d.css.map": "/octet-binary-counter/static/css/main.fe10c50d.css.map",
+    "main.a303bee2.js.map": "/octet-binary-counter/static/js/main.a303bee2.js.map",
     "453.ed979da0.chunk.js.map": "/octet-binary-counter/static/js/453.ed979da0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1a530b.css",
-    "static/js/main.b84549a9.js"
+    "static/css/main.fe10c50d.css",
+    "static/js/main.a303bee2.js"
   ]
 }
