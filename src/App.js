@@ -62,7 +62,7 @@ class App extends Component {
       <div className="App">
         <div className="binary-positions">
           {[...Array(8)].map((e, i) => (
-            <div>
+            <div className="binary-position">
               <div className="integer-container border">
                 {Math.pow(2, 7 - i)}
               </div>

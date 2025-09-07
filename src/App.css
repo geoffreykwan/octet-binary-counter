@@ -46,6 +46,30 @@
   margin: 24px;
 }
 
+@media (max-width: 800px) {
+  .binary-positions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .binary-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .integer-container {
+    width: 20%;
+  }
+  .binary-container {
+    width: 20%;
+  }
+  .value-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+  }
+}
+
 .border {
   border: solid 1px black;
   padding: 12px;
@@ -81,7 +105,6 @@
 .value-input-container {
   width: 100%;
   justify-content: center;
-  margin: 24px;
 }
 
 .set-button {
