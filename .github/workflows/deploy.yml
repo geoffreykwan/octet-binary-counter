@@ -20,6 +20,10 @@ jobs:
           node-version: 22.x
       - run: npm ci
       - run: npm run build
+      - name: Upload static files as artifict
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
 
   deploy:
     runs-on: ubuntu-latest
