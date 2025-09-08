@@ -55,6 +55,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
   .integer-container {
     width: 20%;
